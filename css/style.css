@@ -1689,3 +1689,27 @@ padding-top: 12px;
 }
 
  
+.tabs {
+	display: flex;
+	cursor: pointer;
+}
+.tab {
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	margin-right: 5px;
+}
+.tab.active {
+	background-color: #f1f1f1;
+	border-top: 2px solid #007BFF;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.tab-content {
+	border: 1px solid #ccc;
+	padding: 20px;
+	display: none;
+}
+.tab-content.active {
+	display: block;
+}
