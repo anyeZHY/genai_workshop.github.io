@@ -1713,3 +1713,23 @@ padding-top: 12px;
 .tab-content.active {
 	display: block;
 }
+
+.member {
+	text-align: center;
+	width: 22%;
+	margin-bottom: 20px;
+}
+.member img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.member p {
+	margin-top: 10px;
+	font-weight: bold;
+}
+@media (max-width: 768px) {
+	.member {
+		width: 100%;
+	}
+}
